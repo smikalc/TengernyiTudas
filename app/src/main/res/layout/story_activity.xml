@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset"
+    android:background="@mipmap/main_screen">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chapter_one"
+        android:text="Elso fejezet"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chapter_two"
+        android:text="Második fejezet"/>
+
+    <Button
+        android:id="@+id/chapter_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harmadik fejezet" />
+
+
+    <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/chapter_four"
+         android:text="Negyedik fejezet"/>
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/chapter_five"
+         android:text="Ötödik fejezet"/>
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/chapter_six"
+         android:text="Hatodik fejezet"/>
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/chapter_seven"
+         android:text="Hetedik fejezet"/>
+
+</LinearLayout>

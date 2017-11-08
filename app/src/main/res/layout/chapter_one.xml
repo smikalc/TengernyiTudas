@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:background="@mipmap/back_button" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:text="Első fejezet" />
+
+            <Button
+                android:id="@+id/readLoudly"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:background="@mipmap/speaker_button"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstChapterText"
+            android:maxLines="1000"
+            android:scrollbars="vertical"
+            android:text="@string/chapter_one_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/main_screen"
+        android:text="Fejezetfüggő illusztráció">
+        //Fejezetfüggő illusztráció, stb...
+    </LinearLayout>
+
+</LinearLayout>

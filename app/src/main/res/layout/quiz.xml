@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="150dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/quiz_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elso fejezet" />
+
+            <Button
+                android:id="@+id/quiz_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Második fejezet" />
+
+            <Button
+                android:id="@+id/quiz_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harmadik fejezet" />
+
+
+            <Button
+                android:id="@+id/quiz_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Negyedik fejezet" />
+
+            <Button
+                android:id="@+id/quiz_five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ötödik fejezet" />
+
+            <Button
+                android:id="@+id/quiz_six"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hatodik fejezet" />
+
+            <Button
+                android:id="@+id/quiz_seven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hetedik fejezet" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Title"
+            android:id="@+id/quiz_question"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"/>
+
+
+            <GridLayout
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:columnCount="2"
+                android:rowCount="2"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/answer_a"
+                    android:text="25"/>
+                <Button
+                    android:id="@+id/answer_b"
+                    android:text="50"/>
+                <Button
+                    android:id="@+id/answer_c"
+                    android:text="111"/>
+                <Button
+                    android:id="@+id/answer_d"
+                    android:text="N+1"/>
+
+            </GridLayout>
+         <Button
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="Tovább"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

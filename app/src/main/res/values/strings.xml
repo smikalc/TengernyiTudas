@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TengernyiTudas</string>
+    <string name="chapter_one_text">
+        MeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMese
+        MeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMese
+        MeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMese
+        MeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMese
+        MeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMese
+        MeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMese
+        MeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMese
+        MeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMeseMese
+    </string>
+    <string name="question_1">
+        Hány foga van a fehér cápának?
+    </string>
+    <string name = "question_2">
+        Miért jó a HCI?
+    </string>
+</resources>
